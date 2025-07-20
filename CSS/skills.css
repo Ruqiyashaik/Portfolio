@@ -1,0 +1,95 @@
+header {
+    background-color: #000;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #00f2fe;
+}
+
+nav ul li {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #00f2fe;
+    color: #000;
+    border-radius: 5px;
+}
+
+.intro {
+    background-color: #000;
+    color: white;
+    height:100vh;
+
+}
+
+.intro img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height: 400px;
+    padding-left: 500px;
+}
+
+
+div>h2 {
+    text-align: center;
+    color: white;
+    padding-right: 60px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Headings */
+h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+/* Technical Skills */
+section ul {
+  list-style: none;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+section ul li {
+  margin-bottom: 12px;
+  font-size: 1.3rem;
+  color: #ddd;
+}
+
+section ul li strong {
+  color: #00f2fe;
+}
+
+
+
+
+
+

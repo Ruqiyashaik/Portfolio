@@ -1,0 +1,88 @@
+header {
+  background-color: #000;;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 2rem;
+  color: #00f2fe;
+}
+nav ul li{
+  font-size: 1.5rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #00f2fe;
+  color: #000;
+  border-radius: 5px;
+}
+.intro{
+    background-color: #000;
+    color:white;
+    height:100vh;
+    padding:10px;
+    
+}
+.intro img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    height:400px;
+    padding-left:500px;
+}
+.intro bio{
+    justify-content: space-around;
+    padding:5px;  
+}
+.bio h2{
+  font-size: 1.5rem;
+   padding:3px;
+    justify-content: space-around;
+}
+.bio p{
+    padding:3px;
+    justify-content: space-around;
+    font-size:1.3rem;
+  
+}
+
+.personal-info {
+  margin-top: 20px;
+  line-height: 1.8;
+  color: white;
+  font-size: 18px;
+}
+
+.personal-info a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.personal-info a:hover {
+  text-decoration: underline;
+}
+
+ 
